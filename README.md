@@ -6,11 +6,12 @@ The program saves parameters which are weights and bias as .csv file like W1.csv
 There are a couple of things must be done before using the code
 
 First On the project, the following libraries are used. Must be download these libraries before using the code
-pandas
-numpy
-sklearn
-matplotlib
-scipy
+        
+        pandas
+        numpy
+        sklearn
+        matplotlib
+        scipy
 
 
 Second The following .csv file names must be created.
