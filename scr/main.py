@@ -526,12 +526,12 @@ def main(layer: list):
     return __result, grads, train_cv_test, parameters
 
 
-if __name__ == "__main__":
-    import time
+#if __name__ == "__main__":
+#    import time
 
-    tic = time.time()
-    layers = [(25, "tanh"), (10, "tanh")]
-    result = main(layers)
-    toc = time.time()
+#    tic = time.time()
+#    layers = [(25, "tanh"), (10, "tanh")]
+#    result = main(layers)
+#    toc = time.time()
 
-    print("Total time in minute: ", (toc - tic) / 60)
+#    print("Total time in minute: ", (toc - tic) / 60)
